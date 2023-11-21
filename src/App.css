@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-lg;
+  background-color: #0F172A;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.logoAj{
+width: 40px;
+}
+/* color */
+.bg-primary {
+  background: #0F172A;
+}
+.bg-primaryOne {
+  background: #151e33;
+}
+.bg-primaryTwo {
+  background: #ffffff;
+}
+
+.bg-secondery {
+  background: #293244;
+}
+
+.bg-accent {
+  background: #7477FF;
+}
+
+.text-accent {
+  color: #7477FF;
+}
+
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477FF;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 my-8 py-2 w-full h-full bg-gray-900 duration-100;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: #2e384d;
+  z-index: 100; 
+}
+.aboutSession{
+  background-image: url("./assets/desktop4.jpg");
+  background-size: cover; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.contactSession{
+  background-image: url("./assets/desktop3.jpg"); 
+  background-size: cover; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+/* hero */
+h1 {
+  font-family: 'impact';
+  line-height: 1.5 !important;
+}
+.logo{
+  font-family: Impact (sans-serif)
+}
